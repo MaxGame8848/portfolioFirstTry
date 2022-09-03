@@ -1,0 +1,31 @@
+@media (max-width: 615px){
+    .content {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../images/PicsArt_09-03-01.08.24.jpg);
+        background-size: cover;
+
+    }
+    .content > .left-column {
+        padding-left: 50px;
+    }
+    #second-part {
+        display: none;
+    }
+    .content > .right-column {
+        display: block;
+    }
+    #st {
+        margin-left: 0px;
+    }
+    #nd {
+        margin-left: 0px;
+    }
+    .content > .right-column {
+        width: 500px;
+    }
+    .content > .right-column > img {
+        /* margin-left: -70px; */
+        width: 100%;
+    }
+}
